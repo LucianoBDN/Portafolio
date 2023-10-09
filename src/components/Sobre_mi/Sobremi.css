@@ -1,0 +1,130 @@
+@media screen and (max-width: 1044px) {
+    .presentation h2 {
+        color: #ffa31a;
+        font-size: 1.9rem;
+        padding: 30px;
+    }
+
+    .paragraph {
+        padding: 30px;
+
+    }
+
+    .presentation {
+        margin: 5%;
+        border: #302f2f 5px solid;
+    }
+
+    .presentation p {
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+        color: #ffff;
+        white-space: pre-line;
+    }
+
+    .interests {
+        margin: 5%;
+        border: 5px solid #302f2f;
+        padding: 20px;
+    }
+
+    .interests h2 {
+        color: #ffa31a;
+        font-size: 1.9rem;
+        padding: 30px;
+    }
+
+    .interests p {
+        font-size: 2.3rem;
+        color: #ffa31a;
+        padding: 10px;
+
+    }
+
+
+    .interests i {
+        color: #ffa31a;
+        padding: 10px;
+        font-size: 3rem;
+    }
+
+    .item-interests {
+        text-align: center;
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            ". ."
+            ". ."
+            ". .";
+    }
+}
+
+@media screen and (min-width: 1044px) {
+
+    .about-me {
+        margin: 10%;
+    }
+
+    .presentation {
+        margin-top: 10%;
+        border: #302f2f 5px solid;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .presentation h2 {
+        width: 100%;
+        color: #ffa31a;
+        font-size: 1.9rem;
+        padding-right: 50px;
+    }
+
+    .presentation p {
+        padding: 5px;
+        font-size: 1.2rem;
+        color: #ffff;
+        white-space: pre-line;
+    }
+
+    .interests {
+        padding: 20px;
+        margin-top: 10%;
+        border: 5px solid #302f2f;
+    }
+
+    .interests h2 {
+        color: #ffa31a;
+        font-size: 1.9rem;
+    }
+
+    .interests p {
+        font-size: 2.3rem;
+        color: #ffa31a;
+        padding: 10px;
+    }
+
+    .interests i {
+        color: #ffa31a;
+        padding: 10px;
+        font-size: 3rem;
+    }
+
+    .item-interests {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+    .item {
+        text-align: center;
+    }
+
+}
